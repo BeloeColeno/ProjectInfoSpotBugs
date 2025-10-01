@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ToolManager">
+    <tool name="SpotBugs Analysis" description="Run SpotBugs static analysis" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+      <exec>
+        <option name="COMMAND" value="$ProjectFileDir$/run-spotbugs.sh" />
+        <option name="PARAMETERS" value="" />
+        <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+      </exec>
+    </tool>
+  </component>
+</project>
+

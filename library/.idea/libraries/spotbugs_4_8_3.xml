@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spotbugs-4.8.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spotbugs-4.8.3.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

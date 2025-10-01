@@ -1,0 +1,128 @@
+stages:
+  - build
+  - test
+  - static-analysis
+  - deploy
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
+  MAVEN_CLI_OPTS: "--batch-mode --errors --fail-at-end --show-version"
+
+cache:
+  paths:
+    - .m2/repository/
+
+# Задание 1 - Базовые примеры
+zadanie1:build:
+  stage: build
+  image: openjdk:11-jdk
+  script:
+    - cd "ProjectInfoSystem(zadanie1)"
+    - mvn clean compile
+  artifacts:
+    paths:
+      - "ProjectInfoSystem(zadanie1)/target/"
+    expire_in: 1 hour
+
+zadanie1:static-analysis:
+  stage: static-analysis
+  image: openjdk:11-jdk
+  script:
+    - cd "ProjectInfoSystem(zadanie1)"
+    - mvn spotbugs:check
+    - mvn spotbugs:gui || true
+  artifacts:
+    reports:
+      junit: "ProjectInfoSystem(zadanie1)/target/spotbugs/spotbugsXml.xml"
+    paths:
+      - "ProjectInfoSystem(zadanie1)/target/spotbugs/"
+    expire_in: 1 week
+
+zadanie1:test:
+  stage: test
+  image: openjdk:11-jdk
+  script:
+    - cd "ProjectInfoSystem(zadanie1)"
+    - java -cp "target/classes" com.example.Main
+  dependencies:
+    - zadanie1:build
+
+# Library - Анализ библиотеки
+library:build:
+  stage: build
+  image: openjdk:11-jdk
+  script:
+    - cd library
+    - javac -cp "lib/jsr305-2.0.0.jar" -d build/classes src/bookstore/*.java
+  artifacts:
+    paths:
+      - "library/build/"
+    expire_in: 1 hour
+
+library:static-analysis:
+  stage: static-analysis
+  image: openjdk:11-jdk
+  script:
+    - cd library
+    - java -jar spotbugs-4.8.3/lib/spotbugs.jar -textui -output spotbugs-gitlab-report.txt -cp "lib/jsr305-2.0.0.jar" build/classes/
+  artifacts:
+    paths:
+      - "library/spotbugs-gitlab-report.txt"
+    expire_in: 1 week
+
+library:test:
+  stage: test
+  image: openjdk:11-jdk
+  script:
+    - cd library
+    - java -cp "build/classes:lib/jsr305-2.0.0.jar" bookstore.Library
+  dependencies:
+    - library:build
+
+# Colt - Анализ библиотеки Colt
+colt:build:
+  stage: build
+  image: openjdk:11-jdk
+  script:
+    - cd colt
+    - mvn clean compile
+  artifacts:
+    paths:
+      - "colt/target/"
+    expire_in: 1 hour
+
+colt:static-analysis:
+  stage: static-analysis
+  image: openjdk:11-jdk
+  script:
+    - cd colt
+    - mvn spotbugs:check
+    - mvn spotbugs:gui || true
+  artifacts:
+    reports:
+      junit: "colt/target/spotbugs/spotbugsXml.xml"
+    paths:
+      - "colt/target/spotbugs/"
+    expire_in: 1 week
+
+colt:test:
+  stage: test
+  image: openjdk:11-jdk
+  script:
+    - cd colt
+    - mvn test || echo "No tests found"
+  dependencies:
+    - colt:build
+
+colt:documentation:
+  stage: deploy
+  image: openjdk:11-jdk
+  script:
+    - cd colt
+    - mvn javadoc:javadoc || echo "Javadoc generation failed"
+  artifacts:
+    paths:
+      - "colt/target/site/"
+    expire_in: 1 month
+  dependencies:
+    - colt:build

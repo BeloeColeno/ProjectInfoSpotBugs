@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SpotBugsProjectSettings">
+    <option name="toolVersion" value="4.8.3" />
+    <option name="effort" value="max" />
+    <option name="threshold" value="low" />
+    <option name="includeFilterFiles">
+      <list />
+    </option>
+    <option name="excludeFilterFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spotbugs-exclude.xml" />
+      </list>
+    </option>
+    <option name="auxClasspathEntries">
+      <list>
+        <option value="$PROJECT_DIR$/lib/jsr305-2.0.0.jar" />
+      </list>
+    </option>
+    <option name="spotbugsExecutable" value="$PROJECT_DIR$/spotbugs-4.8.3/bin/spotbugs" />
+    <option name="enabledDetectors">
+      <list>
+        <option value="FindNullDeref" />
+        <option value="FindReturnRef" />
+        <option value="CheckTypeQualifiers" />
+        <option value="FindUninitializedGet" />
+        <option value="UnreadFields" />
+        <option value="SerializableIdiom" />
+      </list>
+    </option>
+    <option name="detectors">
+      <detector enabled="true" name="BadAppletConstructor" />
+      <detector enabled="true" name="BadResultSetAccess" />
+      <detector enabled="true" name="BadSyntaxForRegularExpression" />
+      <detector enabled="true" name="BadUseOfReturnValue" />
+      <detector enabled="true" name="BadlyOverriddenAdapter" />
+      <detector enabled="true" name="BooleanReturnNull" />
+      <detector enabled="true" name="BuildInterproceduralCallGraph" />
+      <detector enabled="true" name="BuildObligationPolicyDatabase" />
+      <detector enabled="true" name="BuildStringPassthruGraph" />
+      <detector enabled="true" name="CallToUnsupportedMethod" />
+      <detector enabled="true" name="CalledMethods" />
+      <detector enabled="true" name="CheckCalls" />
+      <detector enabled="true" name="CheckExpectedWarnings" />
+      <detector enabled="true" name="CheckImmutableAnnotation" />
+      <detector enabled="true" name="CheckRelaxingNullnessAnnotation" />
+      <detector enabled="true" name="CheckTypeQualifiers" />
+      <detector enabled="true" name="CloneIdiom" />
+      <detector enabled="true" name="CovariantArrayAssignment" />
+      <detector enabled="true" name="CrossSiteScripting" />
+      <detector enabled="true" name="DefaultEncodingDetector" />
+      <detector enabled="true" name="DoInsideDoPrivileged" />
+      <detector enabled="true" name="DontCatchIllegalMonitorStateException" />
+      <detector enabled="true" name="DontIgnoreResultOfPutIfAbsent" />
+      <detector enabled="true" name="DontUseEnum" />
+      <detector enabled="true" name="DroppedException" />
+      <detector enabled="true" name="DumbMethodInvocations" />
+      <detector enabled="true" name="DumbMethods" />
+      <detector enabled="true" name="DuplicateBranches" />
+      <detector enabled="true" name="EmptyZipFileEntry" />
+      <detector enabled="true" name="EqualsOperandShouldHaveClassCompatibleWithThis" />
+      <detector enabled="true" name="ExplicitSerialization" />
+      <detector enabled="true" name="FieldItemSummary" />
+      <detector enabled="true" name="FinalizerNullsFields" />
+      <detector enabled="true" name="FindBadCast2" />
+      <detector enabled="true" name="FindBadForLoop" />
+      <detector enabled="true" name="FindBugsSummaryStats" />
+      <detector enabled="true" name="FindCircularDependencies" />
+      <detector enabled="true" name="FindComparatorProblems" />
+      <detector enabled="true" name="FindDeadLocalStores" />
+      <detector enabled="true" name="FindDoubleCheck" />
+      <detector enabled="true" name="FindEmptySynchronizedBlock" />
+      <detector enabled="true" name="FindFieldSelfAssignment" />
+      <detector enabled="true" name="FindFinalizeInvocations" />
+      <detector enabled="true" name="FindFloatEquality" />
+      <detector enabled="true" name="FindFloatMath" />
+      <detector enabled="true" name="FindHEmismatch" />
+      <detector enabled="true" name="FindInconsistentSync" />
+      <detector enabled="true" name="FindJSR166LockMonitorenter" />
+      <detector enabled="true" name="FindLocalSelfAssignment2" />
+      <detector enabled="true" name="FindMaskedFields" />
+      <detector enabled="true" name="FindMismatchedWaitOrNotify" />
+      <detector enabled="true" name="FindNakedNotify" />
+      <detector enabled="true" name="FindNoSideEffectMethods" />
+      <detector enabled="true" name="FindNonSerializableStoreIntoSession" />
+      <detector enabled="true" name="FindNonSerializableValuePassedToWriteObject" />
+      <detector enabled="true" name="FindNonShortCircuit" />
+      <detector enabled="true" name="FindNullDeref" />
+      <detector enabled="true" name="FindNullDerefsInvolvingNonShortCircuitEvaluation" />
+      <detector enabled="true" name="FindOpenStream" />
+      <detector enabled="true" name="FindPuzzlers" />
+      <detector enabled="true" name="FindRefComparison" />
+      <detector enabled="true" name="FindReturnRef" />
+      <detector enabled="true" name="FindRoughConstants" />
+      <detector enabled="true" name="FindRunInvocations" />
+      <detector enabled="true" name="FindSelfComparison" />
+      <detector enabled="true" name="FindSelfComparison2" />
+      <detector enabled="true" name="FindSleepWithLockHeld" />
+      <detector enabled="true" name="FindSpinLoop" />
+      <detector enabled="true" name="FindSqlInjection" />
+      <detector enabled="true" name="FindTwoLockWait" />
+      <detector enabled="true" name="FindUncalledPrivateMethods" />
+      <detector enabled="true" name="FindUnconditionalWait" />
+      <detector enabled="true" name="FindUninitializedGet" />
+      <detector enabled="true" name="FindUnrelatedTypesInGenericContainer" />
+      <detector enabled="true" name="FindUnreleasedLock" />
+      <detector enabled="true" name="FindUnsatisfiedObligation" />
+      <detector enabled="true" name="FindUnsyncGet" />
+      <detector enabled="true" name="FindUseOfNonSerializableValue" />
+      <detector enabled="true" name="FindUselessControlFlow" />
+      <detector enabled="true" name="FindUselessObjects" />
+      <detector enabled="true" name="FormatStringChecker" />
+      <detector enabled="true" name="FunctionsThatMightBeMistakenForProcedures" />
+      <detector enabled="true" name="HugeSharedStringConstants" />
+      <detector enabled="true" name="IDivResultCastToDouble" />
+      <detector enabled="true" name="IncompatMask" />
+      <detector enabled="true" name="InconsistentAnnotations" />
+      <detector enabled="true" name="InefficientIndexOf" />
+      <detector enabled="true" name="InefficientInitializationInsideLoop" />
+      <detector enabled="true" name="InefficientMemberAccess" />
+      <detector enabled="true" name="InefficientToArray" />
+      <detector enabled="true" name="InfiniteLoop" />
+      <detector enabled="true" name="InfiniteRecursiveLoop" />
+      <detector enabled="true" name="InheritanceUnsafeGetResource" />
+      <detector enabled="true" name="InitializationChain" />
+      <detector enabled="true" name="InitializeNonnullFieldsInConstructor" />
+      <detector enabled="true" name="InstantiateStaticClass" />
+      <detector enabled="true" name="IntCast2LongAsInstant" />
+      <detector enabled="true" name="InvalidJUnitTest" />
+      <detector enabled="true" name="IteratorIdioms" />
+      <detector enabled="true" name="LazyInit" />
+      <detector enabled="true" name="LoadOfKnownNullValue" />
+      <detector enabled="true" name="LostLoggerDueToWeakReference" />
+      <detector enabled="true" name="MethodReturnCheck" />
+      <detector enabled="true" name="Methods" />
+      <detector enabled="true" name="MultithreadedInstanceAccess" />
+      <detector enabled="true" name="MutableEnum" />
+      <detector enabled="true" name="MutableLock" />
+      <detector enabled="true" name="MutableStaticFields" />
+      <detector enabled="true" name="Naming" />
+      <detector enabled="true" name="Noise" />
+      <detector enabled="true" name="NoiseNullDeref" />
+      <detector enabled="true" name="NoteAnnotationRetention" />
+      <detector enabled="true" name="NoteCheckReturnValueAnnotations" />
+      <detector enabled="true" name="NoteDirectlyRelevantTypeQualifiers" />
+      <detector enabled="true" name="NoteJCIPAnnotation" />
+      <detector enabled="true" name="NoteNonNullAnnotations" />
+      <detector enabled="true" name="NoteNonnullReturnValues" />
+      <detector enabled="true" name="NoteSuppressedWarnings" />
+      <detector enabled="true" name="NoteUnconditionalParamDerefs" />
+      <detector enabled="true" name="NumberConstructor" />
+      <detector enabled="true" name="OptionalReturnNull" />
+      <detector enabled="true" name="OverridingEqualsNotSymmetrical" />
+      <detector enabled="true" name="PreferZeroLengthArrays" />
+      <detector enabled="true" name="PublicSemaphores" />
+      <detector enabled="true" name="QuestionableBooleanAssignment" />
+      <detector enabled="true" name="ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass" />
+      <detector enabled="true" name="ReadReturnShouldBeChecked" />
+      <detector enabled="true" name="RedundantConditions" />
+      <detector enabled="true" name="RedundantNullCheckOfNonnullValue" />
+      <detector enabled="true" name="ReflectiveClasses" />
+      <detector enabled="true" name="RepeatedConditionals" />
+      <detector enabled="true" name="ResolveAllReferences" />
+      <detector enabled="true" name="RuntimeExceptionCapture" />
+      <detector enabled="true" name="SerializableIdiom" />
+      <detector enabled="true" name="StartInConstructor" />
+      <detector enabled="true" name="StaticCalendarDetector" />
+      <detector enabled="true" name="StringConcatenation" />
+      <detector enabled="true" name="SuperfluousInstanceOf" />
+      <detector enabled="true" name="SuspiciousThreadInterrupted" />
+      <detector enabled="true" name="SwitchFallthrough" />
+      <detector enabled="true" name="SynchronizationOnSharedBuiltinConstant" />
+      <detector enabled="true" name="SynchronizeAndNullCheckField" />
+      <detector enabled="true" name="SynchronizeOnClassLiteralNotGetClass" />
+      <detector enabled="true" name="SynchronizingOnContentsOfFieldToProtectField" />
+      <detector enabled="true" name="TestASM" />
+      <detector enabled="true" name="TestDataflowAnalysis" />
+      <detector enabled="true" name="TestingGround" />
+      <detector enabled="true" name="TestingGround2" />
+      <detector enabled="true" name="TrainFieldStoreTypes" />
+      <detector enabled="true" name="TrainLongInstantfParams" />
+      <detector enabled="true" name="TrainNonNullAnnotations" />
+      <detector enabled="true" name="TrainUnconditionalDerefParams" />
+      <detector enabled="true" name="URLProblems" />
+      <detector enabled="true" name="UncallableMethodOfAnonymousClass" />
+      <detector enabled="true" name="UnnecessaryMath" />
+      <detector enabled="true" name="UnreadFields" />
+      <detector enabled="true" name="UselessSubclassMethod" />
+      <detector enabled="true" name="VarArgsProblems" />
+      <detector enabled="true" name="VolatileUsage" />
+      <detector enabled="true" name="WaitInLoop" />
+      <detector enabled="true" name="WrongMapIterator" />
+      <detector enabled="true" name="XMLFactoryBypass" />
+    </option>
+  </component>
+</project>

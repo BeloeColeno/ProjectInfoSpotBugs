@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FindBugs-IDEA">
+    <analysisEffort>max</analysisEffort>
+    <minPriority>Low</minPriority>
+    <excludeFilterFiles>
+      <filter file="$PROJECT_DIR$/spotbugs-exclude.xml" enabled="false" />
+    </excludeFilterFiles>
+  </component>
+</project>

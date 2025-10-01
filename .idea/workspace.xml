@@ -5,148 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39445481-2484-43ac-98c0-327c1acafc94" name="Changes" comment="[PIS-3] Реализация программного обеспечения для лабораторной работы №4 статический анализ">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.idea/dictionaries/project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.idea/findbugs-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/spotbugs-security-exclude.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/spotbugs-security-include.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/src/main/java/ru/petrov/edu/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/src/main/java/ru/petrov/edu/NullPointerProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/src/main/java/ru/petrov/edu/OtherProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/src/main/java/ru/petrov/edu/PrecisionAndPerformanceProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpotBugs(Ex1)/src/main/java/ru/petrov/edu/ThreadSafetyProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colt/IDEA-SpotBugs-Setup.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colt/run-spotbugs-gui.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colt/spotbugs-summary-report.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/.idea/modules/library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/.spotbugs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/library.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library/run-spotbugs.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProjectInfoSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectInfoSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/STATIC_ANALYSIS_REPORT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/com/example/Example1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/com/example/Example2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/com/example/Example3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/com/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/run_examples.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/run_zadanie1.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/spotbugs-exclude.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/src/main/java/com/example/Example1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/src/main/java/com/example/Example2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/src/main/java/com/example/Example3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/src/main/java/com/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/target/classes/com/example/Example1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/target/classes/com/example/Example2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/target/classes/com/example/Example3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/target/classes/com/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/library/spotbugs-exclude.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/target/static-analysis-examples-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/README.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/colt/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/doc/api/cern/colt/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/doc/api/cern/colt/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/doc/api/hep/aida/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/doc/api/hep/aida/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/doc/api/hep/aida/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/doc/api/hep/aida/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/doc/api/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/doc/api/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/doc/api/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/doc/api/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/doc/api/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/doc/api/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/doc/dgemmColt1.0.3ibm1.4lxPIII_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/colt/doc/dgemmColt1.0.3ibm1.4lxPIII_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/doc/licenses/concurrent.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/colt/doc/licenses/concurrent.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/colt/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/spotbugs-analysis-report.md" beforeDir="false" afterPath="$PROJECT_DIR$/colt/spotbugs-analysis-report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/spotbugs-detailed-analysis.md" beforeDir="false" afterPath="$PROJECT_DIR$/colt/spotbugs-detailed-analysis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/spotbugs-recommendations.md" beforeDir="false" afterPath="$PROJECT_DIR$/colt/spotbugs-recommendations.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/spotbugs-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/colt/spotbugs-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/clhep/PhysicalConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/clhep/PhysicalConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/clhep/Units.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/clhep/Units.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/GenericPermuting.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/GenericPermuting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/GenericSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/GenericSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/GenericSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/GenericSortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/Partitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/Partitioning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/PersistentObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/PersistentObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/Sorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/Swapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/Swapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/Timer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/Version.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/bitvector/BitMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/bitvector/BitMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/bitvector/BitVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/bitvector/BitVector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/bitvector/QuickBitVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/bitvector/QuickBitVector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/bitvector/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/bitvector/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer2DConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer2DConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer3DConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBuffer3DConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBufferConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/DoubleBufferConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/IntBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/IntBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/IntBuffer2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/IntBuffer2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/IntBuffer2DConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/IntBuffer2DConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/buffer/IntBuffer3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/buffer/IntBuffer3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/cern/colt/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/cern/colt/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/corejava/Format.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/corejava/Format.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/corejava/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/corejava/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/IAxis.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/IAxis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/IHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/IHistogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/IHistogram1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/IHistogram1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/IHistogram2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/IHistogram2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/IHistogram3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/IHistogram3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/AbstractBin.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/AbstractBin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/AbstractBin1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/AbstractBin1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/BinBinFunction1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/BinBinFunction1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/BinFunction1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/BinFunction1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/BinFunctions1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/BinFunctions1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/DynamicBin1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/DynamicBin1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/MightyStaticBin1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/MightyStaticBin1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/QuantileBin1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/QuantileBin1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/StaticBin1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/StaticBin1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/bin/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/bin/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/AbstractHistogram1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/AbstractHistogram1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/AbstractHistogram2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/AbstractHistogram2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/AbstractHistogram3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/AbstractHistogram3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/FixedAxis.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/FixedAxis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/Histogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/Histogram1D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/Histogram1D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/Histogram2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/Histogram2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/Histogram3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/Histogram3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/VariableAxis.java" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/VariableAxis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/src/hep/aida/ref/package.html" beforeDir="false" afterPath="$PROJECT_DIR$/colt/src/hep/aida/ref/package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/xdocs/changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/colt/xdocs/changelog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/xdocs/dependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/colt/xdocs/dependencies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/xdocs/dgemmColt1.0.3ibm1.4lxPIII_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/colt/xdocs/dgemmColt1.0.3ibm1.4lxPIII_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/xdocs/licenses/concurrent.LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/colt/xdocs/licenses/concurrent.LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colt/xdocs/mailing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/colt/xdocs/mailing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/spotbugs-analysis-report.md" beforeDir="false" afterPath="$PROJECT_DIR$/library/spotbugs-analysis-report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/spotbugs-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/spotbugs-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/spotbugs-detailed-report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library/spotbugs-detailed-report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/spotbugs-summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library/spotbugs-summary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library/spotbugs-exclude.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectInfoSystem(zadanie1)/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Vasyaev2077 &lt;vasyaev1994@yandex.ru&gt;" />
+        <option value="BeloeColeno" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -177,6 +43,12 @@
     &quot;second&quot;: &quot;d5b1e8b0-48ce-465f-a383-980a56bcfd6d&quot;
   }
 }</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BeloeColeno/ProjectInfoSpotBugs.git",
+    "accountId": "f7328bbf-c3dc-4598-8bbe-06dfd7bcddd7"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -202,10 +74,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/beloecoleno/IdeaProjects/SpotBugs/SpotBugs/src/main/java/ru/petrov/edu/Main.java",
+    "onboarding.tips.debug.path": "/home/beloecoleno/IdeaProjects/ProjectInfoSystem/SpotBugs/src/main/java/ru/petrov/edu/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -253,7 +125,7 @@
       <workItem from="1757844032853" duration="648000" />
       <workItem from="1758795258527" duration="49000" />
       <workItem from="1758795362568" duration="3701000" />
-      <workItem from="1759305771172" duration="322000" />
+      <workItem from="1759305771172" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="[PIS-3] Реализация программного обеспечения для лабораторной работы №4 статический анализ">
       <option name="closed" value="true" />
@@ -263,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757784384183</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[PIS-3] Реализация программного обеспечения для лабораторной работы №4 статический анализ">
+      <option name="closed" value="true" />
+      <created>1759306426198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759306426198</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,16 +153,5 @@
     <MESSAGE value="Initialized from 'Spring' project template&#10;&#10;Template repository: https://gitlab.com/gitlab-org/project-templates/spring&#10;Commit SHA: c56244810044bdfac15f54cbedaf23f7185c4a27" />
     <MESSAGE value="[PIS-3] Реализация программного обеспечения для лабораторной работы №4 статический анализ" />
     <option name="LAST_COMMIT_MESSAGE" value="[PIS-3] Реализация программного обеспечения для лабораторной работы №4 статический анализ" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../SpotBugs/SpotBugs/src/main/java/ru/petrov/edu/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
